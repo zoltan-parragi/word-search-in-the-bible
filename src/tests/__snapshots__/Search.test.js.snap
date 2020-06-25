@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search has valid snapshot 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="search-container"
+  >
+    <form>
+      <input
+        type="text"
+      />
+      <select
+        defaultValue="LEB"
+      >
+        <option
+          onClick={[Function]}
+          value="ASV"
+        >
+          American Standard Version
+        </option>
+        <option
+          onClick={[Function]}
+          value="KJV"
+        >
+          Authorized King James Version
+        </option>
+        <option
+          onClick={[Function]}
+          value="KJV1900"
+        >
+          King James Version
+        </option>
+        <option
+          onClick={[Function]}
+          value="DARBY"
+        >
+          Darby Bible
+        </option>
+        <option
+          onClick={[Function]}
+          value="EMPHBBL"
+        >
+          The Emphasized Bible
+        </option>
+        <option
+          onClick={[Function]}
+          value="LEB"
+        >
+          The Lexham English Bible
+        </option>
+        <option
+          onClick={[Function]}
+          value="YLT"
+        >
+          Young’s Literal Translation
+        </option>
+      </select>
+      <button
+        className="button-search"
+        type="submit"
+      />
+    </form>
+  </div>
+</div>
+`;

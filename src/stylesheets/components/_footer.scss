@@ -1,0 +1,22 @@
+footer {
+    height: 13rem;
+    padding: 2.5rem 0 4rem 0;
+    background: $black;
+    color: $white;
+    text-align: center;
+    line-height: 2rem;
+    .footer-container {
+    	width: 90%;
+    	margin: 0 auto;
+    }
+    a {
+    	text-decoration: none;
+    	color: $orange;
+    }
+} 
+
+@media screen and (min-width: 600px) {
+	footer {
+		height: 11rem;
+	}
+}

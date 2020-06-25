@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $black;
+  background: $white;
+  font-size: 100%;
+  font-family: CoreSans, Arial, sans-serif;
+  .page {
+  	.without-footer {
+	  min-height: calc(100vh - 13rem);
+	}
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .without-footer {
+      min-height: calc(100vh - 11rem);
+  }
+}

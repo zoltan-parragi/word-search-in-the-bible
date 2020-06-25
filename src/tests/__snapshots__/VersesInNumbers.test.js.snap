@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VersesInNumbers has valid snapshot 1`] = `
+<div
+  className="versesinfo-numbers"
+>
+  <span
+    className="versesinfo-numbers-total"
+  >
+    The number of verses: 
+  </span>
+  <span
+    className="versesinfo-numbers-page"
+  >
+    page: 
+    NaN
+  </span>
+  <span
+    className="versesinfo-numbers-verses"
+  >
+    verses: 
+    NaN
+     - 
+  </span>
+</div>
+`;

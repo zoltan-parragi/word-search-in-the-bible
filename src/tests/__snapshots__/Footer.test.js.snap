@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer has valid snapshot 1`] = `
+<div
+  className="footer"
+>
+  <div
+    className="footer-container"
+  >
+    <div
+      className="footer-col col1"
+    >
+      <a
+        href="http://biblia.com/"
+      >
+        <img
+          alt="biblia"
+          src="https://api.biblia.com/v1/PoweredByBiblia_small.png"
+        />
+      </a>
+    </div>
+    <div
+      className="footer-col col2"
+    >
+      <p>
+        This site uses the 
+        <a
+          href="http://biblia.com/"
+        >
+          Biblia
+        </a>
+         webservices from 
+        <a
+          href="http://www.logos.com/"
+        >
+          Logos Bible Software
+        </a>
+        .
+      </p>
+    </div>
+    <div
+      className="footer-col col3"
+    >
+      <p>
+        Copyright Ⓒ 2020, 
+        <a
+          href="http://parragi.com"
+        >
+          parragi.com
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

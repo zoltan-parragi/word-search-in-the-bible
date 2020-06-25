@@ -1,0 +1,50 @@
+.search {
+	background: $dark-purple;
+	padding-top: 1.5rem;
+	padding-bottom: 1.35rem;
+	&-container {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+	form {
+		input {
+			display: block;
+			width: 100%;
+			color: $dark-purple;
+			font-size: 1rem;
+			padding: 0.5rem;
+			border: 0.15rem solid $light-blue;
+		}
+		select {
+			display: block;
+			width: 100%;
+			color: $dark-purple;
+			font-size: 1rem;
+			padding: 0.44rem;
+			margin-top: 1rem;
+			background: $white;
+			border: 0.15rem solid $light-blue;
+		}
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.search {
+		padding-bottom: 1.5rem;
+		form {
+			input{
+			    display: inline-block;
+			    width: 10rem;
+			    margin-right: 1rem;
+			}
+			select {
+			    display: inline-block;
+                width: 18rem;
+			    margin-right: 1rem;
+				margin-top: 0;
+			}
+
+			
+		}
+	}
+}

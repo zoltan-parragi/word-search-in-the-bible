@@ -1,0 +1,20 @@
+.sort {
+	width: 90%;
+	margin: 0 auto 2rem auto;
+	&-intro {
+		display: block;
+		margin-bottom: 1rem;
+	}
+	&-button-withmargin {
+		margin-left: 0.5rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.sort-intro {
+		display: inline;
+		margin-bottom: 0;
+	}
+}
+
+

@@ -1,0 +1,53 @@
+header {
+  background: $dark-blue;
+  padding: 2rem 0 2rem 0;
+  .header-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $dark-purple;
+    -webkit-text-stroke: 2px $dark-purple;
+    text-shadow: 0px 2px 2px rgba(52, 9, 38, 1);
+    & .orange {
+      color: $orange;
+      -webkit-text-stroke: 2px $orange;
+      text-shadow: 0px 2px 2px rgba(52, 9, 38, 1);
+    }
+  }
+  p {
+    color: $dark-purple;
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 6%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    h1 {
+      text-align: left;
+    }
+    p{
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    h1 {
+      font-size: 5rem;
+      letter-spacing: 2px;
+      text-align: left;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.table {
+	.verse-display {
+		width: 90%;
+		margin: 0 auto;
+		border: 0px solid $dark-purple;
+		margin-bottom: 1rem;
+		&-reference {
+			display: block;
+			padding: 0.2rem 0.2rem 0.1rem 0.5rem;
+			color: $black;
+			background: $white;
+			font-weight: bold;
+			border-bottom: 0px solid $dark-purple;
+		}
+		&-text {
+			padding: 0 0.5rem 0rem 0.5rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) {
+.table {
+	.verse-display {
+		width: 70%;
+	}
+}
+}

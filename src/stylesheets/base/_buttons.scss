@@ -1,0 +1,58 @@
+@mixin button-base {
+	padding: 0.65rem;
+	font-size: 1rem;
+	border-width: 0;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.button {
+	&-search {
+	    @include button-base;
+	    display: block;
+	    margin: 0.5rem auto 0 auto;
+	    max-width: 5.7rem;
+	    color: $white;
+	    background: $dark-blue;
+	    border-color: $dark-blue;
+	}
+
+	&-versesinfo {
+	    @include button-base;
+		width: 9rem;
+        color: $white;
+	    background: $dark-blue;
+	    border-color: $dark-purple;
+	    disabled: true;
+		&:nth-child(1) {
+		    margin-right: 2rem;
+		}
+	}
+
+	&-sort {
+		@include button-base;
+	    background: $white;
+	    padding: 0.5rem;
+	    border-width: 0.15rem;
+	    border-color: $dark-blue;
+	    &-active {
+	    	border-color: $dark-purple;
+	    }
+	    &:hover {
+	    	background: $light-blue;
+	    }
+	}
+}
+
+.button-disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 600px) {
+	.button-search {
+		display: inline-block;
+		margin-top: 0;
+	}
+
+}

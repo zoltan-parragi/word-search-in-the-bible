@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sort has valid snapshot 1`] = `
+<button
+  className="button-sort button-sort-active"
+  onClick={[Function]}
+  type="button"
+>
+  button
+</button>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="sort"
+  >
+    <span
+      className="sort-intro"
+    >
+      Sort on this page by 
+    </span>
+    <span>
+      <button
+        className="button-sort"
+        onClick={[Function]}
+        type="button"
+      >
+        reference
+      </button>
+    </span>
+    <span
+      className="sort-button-withmargin"
+    >
+      <button
+        className="button-sort"
+        onClick={[Function]}
+        type="button"
+      >
+        verse text
+      </button>
+    </span>
+    <span
+      className="sort-button-withmargin"
+    >
+      <button
+        className="button-sort button-sort-active"
+        onClick={[Function]}
+        type="button"
+      >
+        none
+      </button>
+    </span>
+  </div>
+  <div
+    className="verse-display"
+  >
+    <span
+      className="verse-display-reference"
+    >
+      1
+    </span>
+    <span
+      className="verse-display-text"
+    >
+      x
+    </span>
+  </div>
+  <div
+    className="verse-display"
+  >
+    <span
+      className="verse-display-reference"
+    >
+      2
+    </span>
+    <span
+      className="verse-display-text"
+    >
+      y
+    </span>
+  </div>
+</div>
+`;

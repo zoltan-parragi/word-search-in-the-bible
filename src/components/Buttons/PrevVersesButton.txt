@@ -1,0 +1,45 @@
+import React, { Component } from "react";
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+
+class PrevVersesButton extends Component{
+	constructor(props) {
+		super(props);
+		this.state = {
+			prevBtnDisabled: true,
+		};
+		this.previousPage = this.previousPage.bind(this);
+	}
+	
+	const btnClass = classNames({
+      'button-versesinfo': true,
+      'button-disabled': this.props.isPrevBtnDisabled
+    });
+
+	render() {
+		return(
+
+		);
+	}
+
+}
+
+
+
+= ({ onClick, children}) => (
+	<button onClick={onClick} className={btnClass} type="button">
+		{children}
+	</button>
+);
+
+PrevVersesButton.defaultProps = {
+	className: '',
+}
+
+PrevVersesButton.propTypes = {
+    onClick: PropTypes.func,
+    className: PropTypes.string,
+    children: PropTypes.node.isRequired,
+}
+
+export default PrevVersesButton;

@@ -1,0 +1,49 @@
+.versesinfo {
+	width: 90%;
+	margin: 2rem auto;
+    &-numbers {
+        span {
+            display: block;
+            margin-bottom: 1rem;
+        }
+        &-total {
+        	width: 12rem;
+        }
+        &-page{
+        	width: 4rem;
+    	}
+    	&-verses {
+    		width: 8rem;
+    	}
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .versesinfo {
+    	&-numbers {
+    		span {
+    			display: inline-block;
+    			margin-right: 2rem;
+    		}
+    	}
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .versesinfo {
+    	&-numbers {
+    		display: inline-block;
+    	}
+    	&-buttons {
+    		display: inline-block;
+    	}
+    }
+}
+
+
+
+
+
+
+

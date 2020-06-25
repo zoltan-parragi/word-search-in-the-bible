@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has valid snapshot 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="without-footer"
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="header-container"
+      >
+        <h1>
+          Words in the 
+          <span
+            className="orange"
+          >
+            Bible
+          </span>
+        </h1>
+        <p>
+          Search the word you choose in Bible translations.
+        </p>
+      </div>
+    </div>
+    <div
+      className="search"
+    >
+      <div
+        className="search-container"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            onChange={[Function]}
+            type="text"
+            value="love"
+          />
+          <select
+            defaultValue="LEB"
+          >
+            <option
+              onClick={[Function]}
+              value="ASV"
+            >
+              American Standard Version
+            </option>
+            <option
+              onClick={[Function]}
+              value="KJV"
+            >
+              Authorized King James Version
+            </option>
+            <option
+              onClick={[Function]}
+              value="KJV1900"
+            >
+              King James Version
+            </option>
+            <option
+              onClick={[Function]}
+              value="DARBY"
+            >
+              Darby Bible
+            </option>
+            <option
+              onClick={[Function]}
+              value="EMPHBBL"
+            >
+              The Emphasized Bible
+            </option>
+            <option
+              onClick={[Function]}
+              value="LEB"
+            >
+              The Lexham English Bible
+            </option>
+            <option
+              onClick={[Function]}
+              value="YLT"
+            >
+              Young’s Literal Translation
+            </option>
+          </select>
+          <div
+            className="button-search"
+          >
+            Loading... 
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      className="versesinfo"
+    >
+      <div
+        className="versesinfo-numbers"
+      >
+        <span
+          className="versesinfo-numbers-total"
+        >
+          The number of verses: 
+          0
+        </span>
+        <span
+          className="versesinfo-numbers-page"
+        >
+          page: 
+          1
+        </span>
+        <span
+          className="versesinfo-numbers-verses"
+        >
+          verses: 
+          0
+           
+        </span>
+      </div>
+      <div
+        className="versesinfo-buttons"
+      >
+        <button
+          className="button-versesinfo"
+          onClick={[Function]}
+          type="button"
+        >
+          &lt; Previous page
+        </button>
+        <button
+          className="button-versesinfo"
+          onClick={[Function]}
+          type="button"
+        >
+          Next page &gt;
+        </button>
+      </div>
+    </div>
+    <div
+      className="table"
+    >
+      <div
+        className="sort"
+      >
+        <span
+          className="sort-intro"
+        >
+          Sort on this page by 
+        </span>
+        <span>
+          <button
+            className="button-sort"
+            onClick={[Function]}
+            type="button"
+          >
+            reference
+          </button>
+        </span>
+        <span
+          className="sort-button-withmargin"
+        >
+          <button
+            className="button-sort"
+            onClick={[Function]}
+            type="button"
+          >
+            verse text
+          </button>
+        </span>
+        <span
+          className="sort-button-withmargin"
+        >
+          <button
+            className="button-sort button-sort-active"
+            onClick={[Function]}
+            type="button"
+          >
+            none
+          </button>
+        </span>
+      </div>
+    </div>
+    <div
+      className="versesinfo"
+    >
+      <div
+        className="versesinfo-numbers"
+      >
+        <span
+          className="versesinfo-numbers-total"
+        >
+          The number of verses: 
+          0
+        </span>
+        <span
+          className="versesinfo-numbers-page"
+        >
+          page: 
+          1
+        </span>
+        <span
+          className="versesinfo-numbers-verses"
+        >
+          verses: 
+          0
+           
+        </span>
+      </div>
+      <div
+        className="versesinfo-buttons"
+      >
+        <button
+          className="button-versesinfo"
+          onClick={[Function]}
+          type="button"
+        >
+          &lt; Previous page
+        </button>
+        <button
+          className="button-versesinfo"
+          onClick={[Function]}
+          type="button"
+        >
+          Next page &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <div
+      className="footer-container"
+    >
+      <div
+        className="footer-col col1"
+      >
+        <a
+          href="http://biblia.com/"
+        >
+          <img
+            alt="biblia"
+            src="https://api.biblia.com/v1/PoweredByBiblia_small.png"
+          />
+        </a>
+      </div>
+      <div
+        className="footer-col col2"
+      >
+        <p>
+          This site uses the 
+          <a
+            href="http://biblia.com/"
+          >
+            Biblia
+          </a>
+           webservices from 
+          <a
+            href="http://www.logos.com/"
+          >
+            Logos Bible Software
+          </a>
+          .
+        </p>
+      </div>
+      <div
+        className="footer-col col3"
+      >
+        <p>
+          Copyright Ⓒ 2020, 
+          <a
+            href="http://parragi.com"
+          >
+            parragi.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
